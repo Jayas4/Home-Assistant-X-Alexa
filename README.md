@@ -5,7 +5,7 @@
 ```
 Un site web en HTTPS
 ```
-Il faut obligatoirement que le site soit en HTTPS car amazon refuse de traiter avec un site non HTTPS , sinon ce réferer a : #Amettresolucepourskipca
+Il faut obligatoirement que le site soit en HTTPS car amazon refuse de traiter avec un site non HTTPS , sinon ce réferer a : https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/troubleshooting.yaml
 
 ```
 Redirection 443

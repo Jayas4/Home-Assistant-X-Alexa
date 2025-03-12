@@ -75,10 +75,22 @@ FonctionH-A>Configuration>Variables D'environement
 Nom d'évènement : Discovery
 Contenu json :
 Remplacer le token par son token H-A
+Lancer le test
+Voir les détails
+Voir la réponse , normalement :
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Discovery",
+      "name": "Discover.Response",
+      "messageId": "ID PERSONNEL",
+      "payloadVersion": "3"
+    },
+    "payload": {
+      "endpoints": [
+        { et la suite pour les appareils découvert
+Si des problèmes surviennent , ce réfèrer a : https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/Code/debugs.yaml
 ```
-
-
-
 
 
 

@@ -2,6 +2,7 @@
 
  ## I. Prérequis
 ### A. Création des compte
+```
 Un site web en HTTPS
 ```
 Il faut obligatoirement que le site soit en HTTPS car amazon refuse de traiter avec un site non HTTPS , sinon ce réferer a : #Amettresolucepourskipca
@@ -9,13 +10,13 @@ Il faut obligatoirement que le site soit en HTTPS car amazon refuse de traiter a
 Redirection 443
 ```
 Il faut obligatoirement que le port externe 443 renvoie sur 8123 sur le port de votre box / routeur
-```
+
   
   
   ## II. Création des compte
 ### A. Création des compte
 
-Crée du compte Aws Console avec n'importe quelle E-Mail sur le site : https://aws.amazon.com/fr/console/
+Crée du compte Aws Console avec n'importe quelle E-Mail sur le site : 
 ```
 Le site Aws console nous servira a crée la fonction lambda , et a éffectué des test avant le déployement
 ```
@@ -24,17 +25,18 @@ Crée du compte Alexa Devloppeur avec l'E-Mail de votre compte Alexa sur le site
 ```
 Le site Alexa Devloppeur nous servira a crée la skill , gérer les url de connexion et l'implementer 
 ```
-  ## I. Prérequis
-### A. Création des compte
-Un site web en HTTPS
+  ## I. Configuration
+### A. Aws Console
+
 ```
-Il faut obligatoirement que le site soit en HTTPS car amazon refuse de traiter avec un site non HTTPS , sinon ce réferer a : #Amettresolucepourskipca
+Création Fonction Lambda
+Nom Home-Assitant
+Execution Python 3.9
+Architecture x86_64
+Créer un nouveau rôle avec les autorisations Lambda de base
 ```
-Redirection 443
-```
-Il faut obligatoirement que le port externe 443 renvoie sur 8123 sur le port de votre box / routeur
-```
-  
+
+Dans le code il faut donc mettre le contenu de : 
   
   ## II. Création des compte
 ### A. Création des compte

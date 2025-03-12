@@ -11,7 +11,7 @@ Redirection 443
 ```
 Il faut obligatoirement que le port externe 443 renvoie sur 8123 sur le port de votre box / routeur
 ```
-Token Home-Assistan
+Token Home-Assistant
 ```
 Il faut un token pour Alexa , dans UserName>Sécurité>Crée un jeton
 Donne un nom Alexa Test , puis conservez le précieusement

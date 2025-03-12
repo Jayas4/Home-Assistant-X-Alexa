@@ -6,15 +6,23 @@
 Un site web en HTTPS
 ```
 Il faut obligatoirement que le site soit en HTTPS car amazon refuse de traiter avec un site non HTTPS , sinon ce réferer a : #Amettresolucepourskipca
+
 ```
 Redirection 443
 ```
 Il faut obligatoirement que le port externe 443 renvoie sur 8123 sur le port de votre box / routeur
+
 ```
 Token Home-Assistant
 ```
 Il faut un token pour Alexa , dans UserName>Sécurité>Crée un jeton
 Donne un nom Alexa Test , puis conservez le précieusement
+
+```
+Configuration YAML
+```
+Ajouté : https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/Code/configuration.yaml
+En fonction de vos besoin rajouté des filtres ou des règles de Par-Feu
   
   ## II. Création des compte
 ### A. Création des compte
@@ -28,7 +36,19 @@ Crée du compte Alexa Devloppeur avec l'E-Mail de votre compte Alexa sur le site
 ```
 Le site Alexa Devloppeur nous servira a crée la skill , gérer les url de connexion et l'implementer 
 ```
-  ## I. Configuration
+  ## II. Création des compte
+### A. Création des compte
+
+Crée du compte Aws Console avec n'importe quelle E-Mail sur le site : https://aws.amazon.com/fr/console/
+```
+Le site Aws console nous servira a crée la fonction lambda , et a éffectué des test avant le déployement
+```
+Crée du compte Alexa Devloppeur avec l'E-Mail de votre compte Alexa sur le site : https://developer.amazon.com/
+```
+Le site Alexa Devloppeur nous servira a crée la skill , gérer les url de connexion et l'implementer 
+```
+
+  ## III. Configuration
 ### A. Aws Console
 
 Création
@@ -43,19 +63,36 @@ Intégré le contenu https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/
 
 Pour ma part a le token dans le code car impossible de le mettre dans les variables d'environement du a un bug encore inconnue
 
+Ajouter l'url H-A FonctionH-A>Configuration>Variables D'environement
 
-  
-  ## II. Création des compte
-### A. Création des compte
+Ajouté BASE_URL , valeur url externe H-A 
 
-Crée du compte Aws Console avec n'importe quelle E-Mail sur le site : https://aws.amazon.com/fr/console/
+### B. Test Aws Console
+
+Test avec un JSON évènement 
 ```
-Le site Aws console nous servira a crée la fonction lambda , et a éffectué des test avant le déployement
+FonctionH-A>Configuration>Variables D'environement
+Nom d'évènement : Discovery
+Contenu json :
+Remplacer le token par son token H-A
 ```
-Crée du compte Alexa Devloppeur avec l'E-Mail de votre compte Alexa sur le site : https://developer.amazon.com/
-```
-Le site Alexa Devloppeur nous servira a crée la skill , gérer les url de connexion et l'implementer 
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## I. Configuration après installation 
 ### A. Renomer la machines
 ```

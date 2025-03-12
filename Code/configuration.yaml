@@ -1,0 +1,31 @@
+alexa:
+  smart_home:
+
+#Si vous voulez filtrer , voici différent possibilité :
+
+alexa:
+  smart_home:
+    endpoint_id: "switch.group.gang" #Id de l'appareil
+    friendly_name: "Gang of Lights" #Nom
+    description: "All lights in the living room" #Déscription
+    display_categories: ["SWITCH"] #Type
+    capability:
+      type: "Alexa.PowerController"
+      interface: "Alexa.PowerController"
+      instance: "powerState"
+      supported_operations: #Fonctions
+        - "TurnOn"
+        - "TurnOff"
+    actions: #Actions executable
+      - type: "TurnOn"
+        command: "on"
+      - type: "TurnOff"
+        command: "off"
+        
+#Si dans les logs H-A bloque amazon , ajouté : 
+http:
+  ip_ban_enabled: false
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 3.252.92.114
+    - 108.129.151.7  # L'IP d'Amazon EC2 que vous souhaitez autoriser

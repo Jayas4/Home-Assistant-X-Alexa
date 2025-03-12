@@ -92,8 +92,32 @@ Voir la réponse , normalement :
 ```
 Si des problèmes surviennent , ce réfèrer a : https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/Code/debugs.yaml
 
+### C. Alexa Devloppeur
 
+#### A .Création d'une skill
+```
+Création d'une Skill
+Nom Home-Assitant
+Choisir votre Langue
+Experience Smart Home
+```
+#### B .Configuration de Smart Home
+⚠️Ne toucher a rien sauf a choses qui sont marqué ci dessous
 
+Pour Smart Home
+```
+Aller sur https://aws.amazon.com/fr/console/
+Choisir votre fonction H-A
+Cliquer en haut a droite sur Coper  L'ARN
+Puis coller ca dans Default endpoint*
+Choisir votre région
+Cliquez en suite en bas a droite sur Setup Account Linking
+```
+
+Setup Account Linking
+```
+Pour Your Web Authorization URI* entre https://VOTREADRESSEHA/auth/authorize
+```
 
 
 

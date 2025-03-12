@@ -10,8 +10,11 @@ Il faut obligatoirement que le site soit en HTTPS car amazon refuse de traiter a
 Redirection 443
 ```
 Il faut obligatoirement que le port externe 443 renvoie sur 8123 sur le port de votre box / routeur
-
-  
+```
+Token Home-Assistan
+```
+Il faut un token pour Alexa , dans UserName>Sécurité>Crée un jeton
+Donne un nom Alexa Test , puis conservez le précieusement
   
   ## II. Création des compte
 ### A. Création des compte
@@ -37,7 +40,9 @@ Architecture x86_64
 Créer un nouveau rôle avec les autorisations Lambda de base
 ```
 Intégré le contenu https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/Code/lambda_fonction.py dans le code
+
 Pour ma part a le token dans le code car impossible de le mettre dans les variables d'environement du a un bug encore inconnue
+
 
   
   ## II. Création des compte

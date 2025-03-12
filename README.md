@@ -10,7 +10,7 @@ Il faut obligatoirement que le site soit en HTTPS car amazon refuse de traiter a
 ```
 Redirection 443
 ```
-Il faut obligatoirement que le port externe 443 renvoie sur 8123 sur le port de votre box / routeur
+Il faut obligatoirement que le port externe 443 renvoie sur le port interne 8123de votre box / routeur
 
 ```
 Token Home-Assistant

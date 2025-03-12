@@ -18,7 +18,7 @@ Il faut obligatoirement que le port externe 443 renvoie sur 8123 sur le port de 
 
 Crée du compte Aws Console avec n'importe quelle E-Mail sur le site : 
 ```
-Le site Aws console nous servira a crée la fonction lambda , et a éffectué des test avant le déployement
+Le site Aws console nous servira a crée la fonction  et a éffectué des test avant le déployement
 ```
 Crée du compte Alexa Devloppeur avec l'E-Mail de votre compte Alexa sur le site : https://developer.amazon.com/
 

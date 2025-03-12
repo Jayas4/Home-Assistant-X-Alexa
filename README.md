@@ -36,7 +36,8 @@ Execution Python 3.9
 Architecture x86_64
 Créer un nouveau rôle avec les autorisations Lambda de base
 ```
-Dans le code , veuillez intégré : https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/Code/lambda_fonction.py , qui pour ma part a le token dans le code car impossible de le mettre dans les variables d'environement du a un bug encore inconnue
+Intégré le contenu https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/Code/lambda_fonction.py dans le code
+Pour ma part a le token dans le code car impossible de le mettre dans les variables d'environement du a un bug encore inconnue
 
   
   ## II. Création des compte

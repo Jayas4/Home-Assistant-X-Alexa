@@ -116,7 +116,13 @@ Cliquez en suite en bas a droite sur Setup Account Linking
 
 Setup Account Linking
 ```
-Pour Your Web Authorization URI* entre https://VOTREADRESSEHA/auth/authorize
+Pour Authorization URI* entrez https://VOTREADRESSEHA/auth/authorize
+PourToken URI entrez https://VOTREADRESSEHA/auth/token
+Pour Votre Secret , entre n'importe quoi ,
+Autentification shema doit être changer en Credential Request Body
+Le scope doit être : smart_home
+Pour Alexa Redirect , vous devez copier pour votre région
+Et vous devez le mettre dans Your Client ID
 ```
 
 

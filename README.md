@@ -28,6 +28,7 @@ Le site Alexa Devloppeur nous servira a crée la skill , gérer les url de conne
   ## I. Configuration
 ### A. Aws Console
 
+Création
 ```
 Création Fonction Lambda
 Nom Home-Assitant
@@ -35,8 +36,8 @@ Execution Python 3.9
 Architecture x86_64
 Créer un nouveau rôle avec les autorisations Lambda de base
 ```
+Dans le code , veuillez intégré : https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/Code/lambda_fonction.py , qui pour ma part a le token dans le code car impossible de le mettre dans les variables d'environement du a un bug encore inconnue
 
-Dans le code il faut donc mettre le contenu de : 
   
   ## II. Création des compte
 ### A. Création des compte

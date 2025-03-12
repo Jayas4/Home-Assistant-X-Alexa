@@ -89,8 +89,8 @@ Voir la réponse , normalement :
     "payload": {
       "endpoints": [
         { et la suite pour les appareils découvert
-Si des problèmes surviennent , ce réfèrer a : https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/Code/debugs.yaml
 ```
+Si des problèmes surviennent , ce réfèrer a : https://github.com/Jayas4/Home-Assistant-X-Alexa/blob/main/Code/debugs.yaml
 
 
 

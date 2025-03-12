@@ -137,7 +137,7 @@ Cela devrait vous demandez de vous connectez a votre compte Home Assistant , pui
 
 En cas de problème innatendu , vous pouvez me contactez par :
 
-Mon serveur discord et @jaja21 :https://discord.gg/KWkbKbsRZ
+Mon serveur discord et @jaja21 : https://discord.gg/KWkbKbsRZK
 
 Ou 
 
